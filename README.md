@@ -164,7 +164,7 @@ retail-sales-analytics/
 │   └── scheduler.py
 │
 ├── powerbi/
-│   └── dashboard_vendas.pbix
+│   └── dashboard_empresa.pbix
 │
 ├── relatorios_ia/
 │   ├── relatorio_completo.html

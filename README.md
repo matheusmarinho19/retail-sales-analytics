@@ -1,20 +1,25 @@
-Retail Sales Analytics & Intelligent AI Analysis System
-📌 Sobre o Projeto
+# Retail Sales Analytics & Intelligent AI Analysis System
+
+# 📌 Sobre o Projeto
 
 Projeto completo de Engenharia de Dados, Business Intelligence e Análise Inteligente desenvolvido com foco em tomada de decisão estratégica.
 
 O sistema foi construído simulando um ambiente corporativo real, integrando:
 
-Pipeline ETL automatizado
-Modelagem dimensional (Star Schema)
-Banco de dados MySQL
-Dashboards executivos em Power BI
-Sistema Inteligente de Análise de Dados com IA
-Geração automatizada de insights e recomendações estratégicas
+- Pipeline ETL automatizado
+- Modelagem dimensional (Star Schema)
+- Banco de dados MySQL
+- Dashboards executivos em Power BI
+- Sistema Inteligente de Análise de Dados com IA
+- Geração automatizada de insights e recomendações estratégicas
 
 O objetivo do projeto é transformar dados brutos de vendas em informações estratégicas para negócio, permitindo análises executivas, financeiras, comerciais e operacionais.
 
-🚀 Arquitetura Completa do Projeto
+---
+
+# 🚀 Arquitetura Completa do Projeto
+
+```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                    RETAIL SALES ANALYTICS SYSTEM                           │
 ├─────────────────────────────────────────────────────────────────────────────┤
@@ -32,82 +37,118 @@ O objetivo do projeto é transformar dados brutos de vendas em informações est
 │                           └────────────────┘  └────────────────────┘       │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
+```
 
-🧠 Tecnologias Utilizadas
-🐍 Python
+---
+
+# 🧠 Tecnologias Utilizadas
+
+## 🐍 Python
 
 Responsável por todo o pipeline ETL e sistema de análise inteligente.
 
-Bibliotecas utilizadas:
+### Bibliotecas utilizadas:
 
-pandas
-numpy
-sqlalchemy
-pymysql
-plotly
-openpyxl
-🗄️ MySQL
+- pandas
+- numpy
+- sqlalchemy
+- pymysql
+- plotly
+- openpyxl
+
+---
+
+## 🗄️ MySQL
 
 Banco de dados relacional utilizado para armazenamento estruturado dos dados em modelo dimensional.
 
-📊 Power BI
+---
+
+## 📊 Power BI
 
 Ferramenta utilizada para construção dos dashboards executivos e analíticos.
 
-Recursos utilizados:
+### Recursos utilizados:
 
-DAX
-KPIs
-Modelagem relacional
-Storytelling executivo
-Visualizações estratégicas
-📈 Plotly
+- DAX
+- KPIs
+- Modelagem relacional
+- Storytelling executivo
+- Visualizações estratégicas
+
+---
+
+## 📈 Plotly
 
 Utilizado na geração de dashboards HTML interativos do sistema inteligente de análise.
 
-⚙️ Pipeline ETL
+---
+
+# ⚙️ Pipeline ETL
 
 O processo ETL foi desenvolvido em Python seguindo arquitetura profissional de dados.
 
-🔹 Extract (Extração)
+---
+
+## 🔹 Extract (Extração)
 
 Leitura do dataset CSV contendo:
 
-vendas
-clientes
-produtos
-regiões
-segmentos
-lucro
-descontos
-datas
-🔹 Transform (Transformação)
+- vendas
+- clientes
+- produtos
+- regiões
+- segmentos
+- lucro
+- descontos
+- datas
 
-Processos realizados:
+---
 
-tratamento de valores nulos
-padronização de colunas
-tradução de campos
-conversão de datas
-criação de métricas auxiliares
-enriquecimento de dados
-criação de dimensões analíticas
-🔹 Load (Carga)
+## 🔹 Transform (Transformação)
+
+### Processos realizados:
+
+- tratamento de valores nulos
+- padronização de colunas
+- tradução de campos
+- conversão de datas
+- criação de métricas auxiliares
+- enriquecimento de dados
+- criação de dimensões analíticas
+
+---
+
+## 🔹 Load (Carga)
 
 Os dados tratados são carregados automaticamente no MySQL utilizando SQLAlchemy.
 
-🧱 Modelagem de Dados (Star Schema)
+---
+
+# 🧱 Modelagem de Dados (Star Schema)
 
 O projeto foi estruturado utilizando modelagem dimensional profissional.
 
-📄 Tabelas Dimensionais
-dim_cliente
-dim_produto
-dim_data
-dim_local
-📄 Tabela Fato
-fato_vendas
-📂 Estrutura do Projeto
+---
+
+## 📄 Tabelas Dimensionais
+
+- dim_cliente
+- dim_produto
+- dim_data
+- dim_local
+
+---
+
+## 📄 Tabela Fato
+
+- fato_vendas
+
+---
+
+# 📂 Estrutura do Projeto
+
+```text
 retail-sales-analytics/
 │
 ├── config/
@@ -135,12 +176,16 @@ retail-sales-analytics/
 │   ├── Analise_de_Desempenho.png
 │   ├── Clientes.png
 │   ├── Financeiro.png
-│   ├── Relatório_ia.png
-│   └── Performance_ia.png
+│   ├── Relatório_IA.png
+│   └── Performance_IA.png
 │
 ├── run.py
 ├── requirements.txt
 └── README.md
+```
+
+---
+
 # 📊 Estrutura do Dashboard
 
 O dashboard foi dividido em páginas estratégicas para permitir uma análise completa do negócio, cobrindo visão executiva, financeira, operacional e análise de clientes.
@@ -250,7 +295,7 @@ Além dos dashboards desenvolvidos no Power BI, o projeto também conta com um s
 
 O sistema foi criado para simular um ambiente corporativo de análise inteligente, automatizando processos analíticos e geração de insights estratégicos.
 
-Entre as funcionalidades implementadas estão:
+### Entre as funcionalidades implementadas estão:
 
 - leitura automática dos dados
 - cálculos automáticos de KPIs
@@ -266,7 +311,7 @@ Entre as funcionalidades implementadas estão:
 
 O sistema gera automaticamente um relatório executivo contendo análises estratégicas e recomendações de negócio.
 
-Entre os insights gerados automaticamente estão:
+### Entre os insights gerados automaticamente estão:
 
 - categorias mais rentáveis
 - sazonalidade de vendas
@@ -300,103 +345,159 @@ Além disso, o sistema gera visualizações automatizadas para facilitar anális
 
 ![Performance Inteligente IA](images/Performance_IA.png)
 
-🔄 Fluxo Completo do Sistema
+---
+
+# 🔄 Fluxo Completo do Sistema
+
+```text
 CSV → ETL Python → MySQL → Power BI + Sistema IA → Relatórios Estratégicos
-📌 Principais KPIs
+```
+
+---
+
+# 📌 Principais KPIs
 
 KPIs desenvolvidos utilizando DAX e Python:
 
-Receita Total
-Lucro Total
-Margem %
-Ticket Médio
-Total Pedidos
-Clientes Ativos
-Crescimento %
-Receita por Região
-Margem por Categoria
-Rentabilidade por Segmento
-🔍 Principais Insights Encontrados
+- Receita Total
+- Lucro Total
+- Margem %
+- Ticket Médio
+- Total Pedidos
+- Clientes Ativos
+- Crescimento %
+- Receita por Região
+- Margem por Categoria
+- Rentabilidade por Segmento
+
+---
+
+# 🔍 Principais Insights Encontrados
 
 Durante a análise dos dados foram identificados diversos insights estratégicos:
 
-categoria Furniture apresentou baixa margem operacional
-segmento Corporate apresentou maior rentabilidade
-existência de produtos operando com prejuízo
-concentração de receita em poucos produtos
-sazonalidade forte entre Fevereiro e Novembro
-regiões com oportunidade de expansão comercial
-💼 Recomendações Estratégicas
-✅ Revisão de Precificação
+- categoria Furniture apresentou baixa margem operacional
+- segmento Corporate apresentou maior rentabilidade
+- existência de produtos operando com prejuízo
+- concentração de receita em poucos produtos
+- sazonalidade forte entre Fevereiro e Novembro
+- regiões com oportunidade de expansão comercial
+
+---
+
+# 💼 Recomendações Estratégicas
+
+## ✅ Revisão de Precificação
 
 Produtos com lucro negativo indicam necessidade de revisão de custos e descontos.
 
-✅ Expansão do Segmento Corporate
+---
+
+## ✅ Expansão do Segmento Corporate
 
 Segmento com maior margem operacional e potencial de crescimento.
 
-✅ Estratégia de Retenção
+---
+
+## ✅ Estratégia de Retenção
 
 Clientes estratégicos devem receber programas de fidelização.
 
-✅ Revisão Operacional
+---
+
+## ✅ Revisão Operacional
 
 Categorias com baixa margem podem sofrer impacto logístico ou operacional.
 
-✅ Diversificação Comercial
+---
+
+## ✅ Diversificação Comercial
 
 Reduzir dependência de produtos com alta concentração de receita.
 
-🤖 Automação e Execução
+---
+
+# 🤖 Automação e Execução
 
 O projeto possui automação completa via Python.
 
-Arquivos principais:
-Arquivo	Função
-etl_pipeline.py	Pipeline ETL
-analise_inteligente.py	Sistema IA
-run.py	Menu principal
-monitor.py	Monitoramento
-scheduler.py	Agendamento automático
-config.py	Configurações
-🚀 Execução do Projeto
-1. Clonar repositório
+---
+
+## 📄 Arquivos principais
+
+| Arquivo | Função |
+|---|---|
+| etl_pipeline.py | Pipeline ETL |
+| analise_inteligente.py | Sistema IA |
+| run.py | Menu principal |
+| monitor.py | Monitoramento |
+| scheduler.py | Agendamento automático |
+| config.py | Configurações |
+
+---
+
+# 🚀 Execução do Projeto
+
+## 1. Clonar repositório
+
+```bash
 git clone https://github.com/seuusuario/retail-sales-analytics.git
-2. Instalar dependências
+```
+
+---
+
+## 2. Instalar dependências
+
+```bash
 pip install -r requirements.txt
-3. Executar sistema
+```
+
+---
+
+## 3. Executar sistema
+
+```bash
 python run.py
-📌 Objetivos do Projeto
+```
+
+---
+
+# 📌 Objetivos do Projeto
 
 Este projeto foi desenvolvido para consolidar conhecimentos em:
 
-Engenharia de Dados
-ETL
-Python para Dados
-SQL
-MySQL
-Business Intelligence
-Power BI
-DAX
-Storytelling com Dados
-Automação
-Análise Estratégica
-IA aplicada à análise de dados
-📈 Resultados do Projeto
+- Engenharia de Dados
+- ETL
+- Python para Dados
+- SQL
+- MySQL
+- Business Intelligence
+- Power BI
+- DAX
+- Storytelling com Dados
+- Automação
+- Análise Estratégica
+- IA aplicada à análise de dados
+
+---
+
+# 📈 Resultados do Projeto
 
 O projeto evoluiu de um simples dashboard para um ecossistema completo de análise de dados contendo:
 
-✅ Pipeline ETL automatizado
-✅ Banco de dados relacional
-✅ Modelagem dimensional
-✅ Dashboards executivos
-✅ Sistema inteligente de insights
-✅ Relatórios automatizados
-✅ Storytelling executivo
-✅ Automação operacional
+- ✅ Pipeline ETL automatizado
+- ✅ Banco de dados relacional
+- ✅ Modelagem dimensional
+- ✅ Dashboards executivos
+- ✅ Sistema inteligente de insights
+- ✅ Relatórios automatizados
+- ✅ Storytelling executivo
+- ✅ Automação operacional
 
-👨‍💻 Autor
+---
 
-Matheus Marinho
+# 👨‍💻 Autor
+
+## Matheus Marinho
 
 Projeto desenvolvido para estudo, evolução profissional e portfólio em Engenharia de Dados, Business Intelligence e Análise Estratégica.

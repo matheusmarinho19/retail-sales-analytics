@@ -32,6 +32,7 @@ O objetivo do projeto é transformar dados brutos de vendas em informações est
 │                           └────────────────┘  └────────────────────┘       │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
+
 🧠 Tecnologias Utilizadas
 🐍 Python
 

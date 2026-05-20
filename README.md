@@ -277,7 +277,7 @@ Entre os insights gerados automaticamente estão:
 
 O relatório foi desenvolvido para transformar dados em decisões práticas de negócio.
 
-![Relatório Inteligente IA](images/Relatório_ia.png)
+![Relatório Inteligente IA](images/Relatório_IA.png)
 
 ---
 
@@ -297,7 +297,7 @@ O sistema identifica automaticamente:
 
 Além disso, o sistema gera visualizações automatizadas para facilitar análises executivas e estratégicas.
 
-![Performance Inteligente IA](images/Performance_ia.png)
+![Performance Inteligente IA](images/Performance_IA.png)
 
 🔄 Fluxo Completo do Sistema
 CSV → ETL Python → MySQL → Power BI + Sistema IA → Relatórios Estratégicos
